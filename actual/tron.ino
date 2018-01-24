@@ -163,7 +163,7 @@ void loop() {
         bike1[0]+=pcos(bike1[2]);
         bike1[1]+=psin(bike1[2]);
         //bike2[2]+=bikep2[iter][i];//preset paths
-        bike1[2]+=rand()/(RAND_MAX/2)+rand()/(RAND_MAX/2)-1;//random paths
+        bike2[2]+=rand()/(RAND_MAX/2)+rand()/(RAND_MAX/2)-1;//random paths
         bike2[2]=mod(bike2[2],4);
         bike2[0]+=pcos(bike2[2]);
         bike2[1]+=psin(bike2[2]);
