@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22FD0F412018443700827C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD0F402018443700827C4E /* main.m */; };
+		22FD0F492018448500827C4E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 22FD0F482018448500827C4E /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		22FD0F3D2018443700827C4E /* neo64tron */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = neo64tron; sourceTree = BUILT_PRODUCTS_DIR; };
-		22FD0F402018443700827C4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22FD0F472018448500827C4E /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		22FD0F482018448500827C4E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		22FD0F3F2018443700827C4E /* neo64tron */ = {
 			isa = PBXGroup;
 			children = (
-				22FD0F402018443700827C4E /* main.m */,
+				22FD0F472018448500827C4E /* main.h */,
+				22FD0F482018448500827C4E /* main.c */,
 			);
 			path = neo64tron;
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22FD0F412018443700827C4E /* main.m in Sources */,
+				22FD0F492018448500827C4E /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
